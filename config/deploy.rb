@@ -20,6 +20,8 @@ role :db, domain, :primary => true
 
 namespace :deploy do
   task :restart do
-    run "touch #{current_path}/tmp/restart.txt"
+	# commented out as passenger is not beign used
+    # run "touch #{current_path}/tmp/restart.txt"
+	run "chmod +x #{current_path}/public/dispatch.fcgi"
   end
 end
