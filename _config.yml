@@ -9,3 +9,6 @@ github_username: spudmux
 
 # Build settings
 markdown: kramdown
+
+# Exclude 
+exclude: [Rakefile]
