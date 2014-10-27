@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: ant wildcard java
+tag: ant java wildcard
 ---
 
 
