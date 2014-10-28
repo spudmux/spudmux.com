@@ -9,6 +9,10 @@ github_username: spudmux
 
 # Build settings
 markdown: kramdown
-
+kramdown:
+    input: GFM
+    use_coderay: true
+    coderay:
+        coderay_line_numbers: nil
 # Exclude 
 exclude: [Rakefile]
