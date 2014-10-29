@@ -9,6 +9,11 @@ task :build do
   jekyll 'build'
 end
 
+desc "Clean Build and Start Server"
+task :serve do 
+  jekyll 'serve'
+end
+
 desc "Deploy to Dev"
 task :deploy => :build do
   rsync 'spudmux.com'
