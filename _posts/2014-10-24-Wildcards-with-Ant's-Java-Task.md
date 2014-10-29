@@ -37,7 +37,7 @@ run:
 
 The one java file in the src folder is passed to the jar. Whereas on Mac it fails to pass the file:
 
-```
+```log
 run-passing-wildcard:
 	[java] Echoing Arguments:
 	[java] src/*.java
@@ -71,7 +71,7 @@ Modifying the run target to use the new property and the arg path element.
 
 Now re-running the test on Windows and Mac produces the same result
 
-```
+```log
 run:
 	[java] Echoing Arguments:
 	[java] src\EchoArguments.java
