@@ -29,7 +29,7 @@ public class EchoArguments {
 
 Running the task under Windows works as expected:
 
-```
+```log
 run:
 	[java] Echoing Arguments:
 	[java] src\EchoArguments.java
