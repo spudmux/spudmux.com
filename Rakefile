@@ -11,7 +11,7 @@ end
 
 desc "Clean Build and Start Server"
 task :serve do 
-  jekyll 'serve'
+  jekyll 'serve' ' --watch'
 end
 
 desc "Deploy to Dev"

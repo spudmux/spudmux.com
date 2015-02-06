@@ -1,7 +1,7 @@
 # Site settings
-title: spudmux 
+title: Spudmux 
 email: info@spudmux.com
-description: > # this means to ignore newlines until "baseurl:"
+description: "A collection of things picked up over time" # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://spudmux.com" # the base hostname & protocol for your site
 twitter_username: spudmux 
