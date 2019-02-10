@@ -2,19 +2,21 @@
 title: Spudmux 
 email: info@spudmux.com
 description: "A collection of things picked up over time" # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://spudmux.com" # the base hostname & protocol for your site
+baseurl: "spudmux.com" # the subpath of your site, e.g. /blog/
+url: "https://spudmux.github.io/" # the base hostname & protocol for your site
 twitter_username: spudmux 
 github_username: spudmux 
 
 # Build settings
+sass:
+  sass_dir: css
 markdown: kramdown
+excerpt_separator: <!--more-->
 kramdown:
-    input: GFM
-    use_coderay: true 
-    coderay:
-        coderay_line_numbers: table
-        coderay_css: style
-
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
 # Exclude 
-exclude: [Rakefile]
+exclude:
+  - Rakefile
+  - _todo.md
+  - .idea
