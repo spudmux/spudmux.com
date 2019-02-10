@@ -14,6 +14,11 @@ task :serve do
   jekyll 'serve' ' --watch --drafts'
 end
 
+desc "Clean Build and Start Server without drafts"
+task :serveP do 
+  jekyll 'serve' ' --watch'
+end
+
 desc "Deploy to Dev"
 task :deploy => :build do
   rsync 'spudmux.com'

@@ -8,13 +8,15 @@ twitter_username: spudmux
 github_username: spudmux 
 
 # Build settings
-markdown: kramdown
-kramdown:
-    input: GFM
-    use_coderay: true 
-    coderay:
-        coderay_line_numbers: table
-        coderay_css: style
-
+sass:
+  sass_dir: css
+#markdown: kramdown
+#kramdown:
+#    input: GFM
+    #enable_coderay: true 
+    #syntax_highlighter: coderay
+    #syntax_highlighter_opts:
+    #coderay_line_numbers: table
+    #coderay_css: style
 # Exclude 
 exclude: [Rakefile]
