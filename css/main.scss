@@ -1,8 +1,16 @@
 ---
 ---
+  /**
+   * Syntax highlighting styles
+   */
 
-.footer {
-  //background-color: #f5f5f5;
+.main_container {
+  margin-top: 60px;
 }
+pre.highlight {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+}
+@import 'custom/github.scss';
 @import 'bootstrap/bootstrap';
 

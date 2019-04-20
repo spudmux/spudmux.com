@@ -10,13 +10,13 @@ github_username: spudmux
 # Build settings
 sass:
   sass_dir: css
-#markdown: kramdown
-#kramdown:
-#    input: GFM
-    #enable_coderay: true 
-    #syntax_highlighter: coderay
-    #syntax_highlighter_opts:
-    #coderay_line_numbers: table
-    #coderay_css: style
+markdown: kramdown
+excerpt_separator: <!--more-->
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
 # Exclude 
-exclude: [Rakefile]
+exclude:
+  - Rakefile
+  - _todo.md
+  - .idea

@@ -1,6 +1,6 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
+permalink: /about
 ---
-I'm a software engineer working in Dublin, Ireland. 
+# About

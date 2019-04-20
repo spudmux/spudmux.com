@@ -1,0 +1,12 @@
+<div class="list-group mt-5">
+  <h4 class="pb-2">Post List</h4>
+  {% for post in site.posts %}
+    <a  href="{{ post.url | prepend: site.baseurl }}" class="list-group-item list-group-item-action{% if page.title == post.title %} active{%endif%}">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{ post.title }}</h5>
+        <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+      </div>
+      <p>{{post.excerpt}}</p>
+    </a>
+  {% endfor %}
+</div>
