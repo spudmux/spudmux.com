@@ -1,15 +1,12 @@
 <footer class="footer mt-auto ">
   <div class="container border-top pt-3">
-    <h3>{{ site.title }}</h3>
+
     <div class="row">
       <div class="col">
-        <ul class="list-inline">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+        <h3>{{ site.title }}</h3>
+        <p class="text">{{ site.description }}</p>
       </div>
-
-      <div class="col">
+      <div class="col pt-3">
         <ul class="list-inline">
           {% if site.github_username %}
           <li>
@@ -29,10 +26,6 @@
           </li>
           {% endif %}
         </ul>
-      </div>
-
-      <div class="col">
-        <p class="text">{{ site.description }}</p>
       </div>
     </div>
   </div>
