@@ -1,5 +1,5 @@
 <div class="list-group mt-5">
-  <h5 class="pb-2">Archive</h5>
+  <h5>Archive</h5>
   {% for post in site.posts %}
     <a  href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="list-group-item list-group-item-action{% if page.title == post.title %} list-group-item-light{%endif%}">
       <div class="d-flex w-100 justify-content-between">

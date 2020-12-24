@@ -16,7 +16,7 @@ end
 
 desc "Clean Build and Start Server without drafts"
 task :serveP do 
-  jekyll 'serve' ' --watch'
+  jekyll 'serve' ' --watch --config _config.yml,_config_dev.yml --livereload'
 end
 
 desc "Deploy to Dev"
