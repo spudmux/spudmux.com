@@ -5,7 +5,8 @@ description: "A collection of things picked up over time" # this means to ignore
 baseurl: "spudmux.com" # the subpath of your site, e.g. /blog/
 url: "https://spudmux.github.io/" # the base hostname & protocol for your site
 twitter_username: spudmux 
-github_username: spudmux 
+github_username: spudmux
+repository: spudmux/spudmux.com
 
 # Build settings
 sass:
@@ -20,3 +21,7 @@ exclude:
   - Rakefile
   - _todo.md
   - .idea
+
+
+plugins:
+  - "jekyll-github-metadata"

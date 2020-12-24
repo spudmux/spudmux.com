@@ -29,7 +29,7 @@
       </div>
       <div class="col mt-auto">
         <p class="text-muted text-right">
-          version {{ site.data['hash'] }}
+          version {{ site.github.build_revision | slice: 0, 7 }}
         </p>
       </div>
     </div>
