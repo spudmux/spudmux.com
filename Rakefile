@@ -11,7 +11,7 @@ end
 
 desc "Clean Build and Start Server"
 task :serve do 
-  jekyll 'serve' ' --watch --drafts --config _config.yml,_config_dev.yml --livereload'
+  jekyll 'serve' ' --watch --drafts --config _config.yml,_config_dev.yml --livereload --port 5000'
 end
 
 desc "Clean Build and Start Server without drafts"
