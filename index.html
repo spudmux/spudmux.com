@@ -6,11 +6,12 @@ layout: default
   <ul class="list-unstyled">
     {% for post in site.posts %}
     <li>
+      <small class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</small>
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-        <small class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</small>
-      </h2> 
+      </h2>
     </li>
+    <br />
     {% endfor %}
   </ul>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">via RSS</a></p>
